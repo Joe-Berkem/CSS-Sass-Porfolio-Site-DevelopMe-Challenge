@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<title>Ignis Photography</title>
+		<meta name="description" content="This is my portfolio website showcasing my photography.">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="icon" href="#"> <!-- Add Favicon -->
+		<link rel="stylesheet" href="styles/reset.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+		<link rel="stylesheet" href="styles/style.css">
+	</head>
+
+	<body> 
+
+		<div class="wrapper"> <!--This is the div.wrapper opening for body content --> 
+				
+				<header>
+
+					<nav class="navbar">
+
+						<button class="navbar-toggle" id="js-navbar-toggle">
+				            <img src="images/hamburger.svg" alt="js-menu"></img>
+				        </button> 
+
+
+				        <a href="#" class="logo">Ignis</a>
+				        <ul class="main-nav" id="js-menu">
+				            <li>
+				                <a href="#" class="nav-links active-page">Home</a>
+				            </li>
+				            <li>
+				                <a href="#" class="nav-links">Blog</a>
+				            </li>
+				            <li>
+				                <a href="#" class="nav-links">Contact</a>
+				            </li>
+				            <button class="search-background">
+				                <a href="#" class="nav-links"><img class="search" src="images/search.svg" alt="Search bar function"></a>
+				            </button>
+				        </ul>
+					</nav>
+					      				
+				</header>
+
+			<!--hero image and text --> 
+				<div id="hero-homepage">
+				  <input class="nav-search-input" type="search" id="site-search" name="q" aria-label="Search through site content" placeholder="Search">
+
+
+				  <div class="hero-homepage-text">
+
+				  	<div>
+				    	<h1>My name is Joe<span class="period">.</span><br>I'm a <span class="photographer">photographer</span></h1>
+				    </div>
+
+				    <div>
+					    <p>Scroll down to begin your adventure</p>
+				    </div>
+
+				  </div>
+				</div>
+			<!--end hero image and text --> 
+
+			
+				<section id="section-b"> <!--gallery grid start --> 
+
+					<div id="gallery-left-column">
+
+						<div class="image-long">
+							<img class="gallery-images" src="images/portrait.jpg" alt="portrait1">
+
+							<button class="image-button"><a href="#"></a>Landscapes</button>
+							
+							<p class="image-summary">Lorem ipsum dolor sit amet</p>
+
+						</div>
+
+						<div class="image-long">
+							<img class="gallery-images" src="images/cup.jpg" alt="portrait3">
+
+							<button class="image-button"><a href="#"></a>Landscapes</button>
+							
+							<p class="image-summary">Lorem ipsum dolor sit amet</p>
+						</div>
+
+						<div class="image-long">
+							<img class="gallery-images" src="images/guitar.jpg" alt="portrait5">
+
+							<button class="image-button"><a href="#"></a>Landscapes</button>
+							
+							<p class="image-summary">Lorem ipsum dolor sit amet</p>
+						</div>
+	
+					</div> <!-- .gallery-left-column -->
+
+					<div id="gallery-right-column">
+						<div class="image-short">
+
+							<img class="gallery-images" src="images/woods.jpg" alt="portrait2">
+
+							<button class="image-button"><a href="#"></a>Landscapes</button>
+							
+							<p class="image-summary">Lorem ipsum dolor sit amet</p>
+
+						</div>
+
+						<div class="image-long">
+
+							<img class="gallery-images" src="images/portraitBW.jpg" alt="portrait4">
+
+							<button class="image-button"><a href="#"></a>Landscapes</button>
+							
+							<p class="image-summary">Lorem ipsum dolor sit amet</p>
+
+						</div>
+
+						<div class="image-short">
+
+							<img class="gallery-images" src="images/gorilla.jpg" alt="portrait6">
+
+							<button class="image-button"><a href="#"></a>Landscapes</button>
+							
+							<p class="image-summary">Lorem ipsum dolor sit amet</p>
+							
+						</div>
+
+						<div class="image-short">
+
+							<img class="gallery-images" src="images/graf.jpg" alt="portrait7">
+
+							<button class="image-button"><a href="#"></a>Landscapes</button>
+							
+							<p class="image-summary">Lorem ipsum dolor sit amet</p>
+							
+						</div>
+
+						<div class="image-short">
+
+							<img class="gallery-images" src="images/tape.jpg" alt="portrait8">
+
+							<button class="image-button"><a href="#"></a>Landscapes</button>
+							
+							<p class="image-summary">Lorem ipsum dolor sit amet</p>
+
+						</div>
+
+					</div> <!-- .gallery-right-column -->	
+
+				</section> <!-- .gallery closing tag -->
+
+				<footer>
+
+					<ul>
+						<li><a href="#"><img class="social" src="images/facebook.svg" alt="Facebook"></a></li>
+						<li><a href="#"><img class="social" src="images/twitter.svg" alt="Twitter"></a></li>
+						<li><a href="#"><img class="social" src="images/dribble.svg" alt="Dribble"></a></li>
+						<li><a href="#"><img class="social" src="images/linkedin-in.svg" alt="Linked In"></a></li>
+						<li><a href="#"><img class="social" src="images/youtube.svg" alt="YouTube"></a></li>
+					</ul>
+
+				</footer>
+
+			
+		</div> <!--div.wrapper closing tag --> 
+
+	<script type="text/javascript">
+		let mainNav = document.getElementById('js-menu');
+		let navBarToggle = document.getElementById('js-navbar-toggle');
+
+		navBarToggle.addEventListener('click', function () {
+		    
+		    mainNav.classList.toggle('active');
+		});
+	</script>
+	</body>
+</html>

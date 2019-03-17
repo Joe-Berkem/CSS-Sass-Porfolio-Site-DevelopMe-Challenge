@@ -1,0 +1,117 @@
+
+@font-face {
+font-family: "Poppins";
+src: url("../fonts/Poppins/Poppins-Medium.ttf") format("truetype");
+}
+
+@font-face {
+font-family: "Nunito";
+src: url("../fonts/Nunito/Nunito-Regular.ttf") format("truetype");
+}
+
+.wrapper {
+	font-size: 100%;
+
+	@media screen and (max-width: $break-large) {
+		font-size: 70%;
+	}
+}
+
+$heading-font: "Poppins", sans-serif;
+
+$text-font: "Nunito", sans-serif;
+
+$text-col: #4a4a4a;
+
+$heading-col: black;
+
+$alt-text: #b2b5ba;
+
+$hot-pink: #ff6a7c;
+
+$peach: #fff0e9;
+
+$turquoise: #41cadd;
+
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: $heading-font;
+	font-weight: bold;
+	color: $heading-col;
+}
+
+p, a, button, label, input, li {
+	font-family: $text-font;
+	font-size: 1em;
+	margin: .75em 0;
+	color: $text-col;
+}
+
+h1 {
+	font-size: 2em;
+	margin: 0.67em 2em; 
+
+	@media screen and (max-width: $break-large) {
+		font-size: 1.5em;
+	}
+}
+	
+
+h2 {
+	font-size: 1.5em;
+	margin: 0.83em 0em; 
+}
+
+h3 {
+	font-size: 1.17em;
+	margin: 1em 0em; 
+}
+
+h4 {
+	font-size: 1em;
+	margin: 1.33em 0em; 
+}
+
+h5 {
+	font-size: .83em;
+	margin: 1.67em 0em; 
+}
+
+h6 {
+	font-size: .67em;
+	margin: 2.33em 0em; 
+}
+
+
+.nav-links {
+	text-transform: uppercase;
+}
+
+.hero-homepage-text h1 {
+	color: white;
+	font-size: 3em;
+	margin: 0;
+
+	@media screen and (max-width: $break-medium) {
+		font-size: 1.5em;
+	}
+}
+
+.photographer {
+	color: $turquoise;
+	font-family: times;
+	font-style: italic;
+}
+
+.period {
+	color: $hot-pink;
+}
+
+ul {
+	list-style-type: disc;
+	list-style-position: inside;
+}
+
+p {
+	line-height: 150%;
+}

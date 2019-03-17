@@ -1,0 +1,98 @@
+.navbar {
+    position: relative;
+
+  @media screen and (max-width: $break-medium) {
+        text-align: center;
+    }
+
+    .main-nav {
+        list-style-type: none;
+        float: right;
+        margin: 0;
+        overflow: hidden;
+        text-align: center;
+        margin-top: 1.3em;
+        list-style-type: none;
+        display: flex;
+        align-items: flex-end;
+
+       @media screen and (max-width: $break-large) {
+        display: none;
+        float: none;
+        align-items: center;
+    }
+}
+
+    .nav-links {
+        text-decoration: none;
+        color: $text-col;
+        font-weight: 500;
+    }
+
+    .main-nav li {
+        float: left;
+        display: inline;
+        margin-left: .75em;
+        margin-top: 0;
+    }
+}
+
+.logo {
+    display: inline-block;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 0.63em;
+    text-decoration: none;
+    color: $text-col;
+}
+
+.navbar-toggle {
+    position: absolute;
+    right: 0.63em;
+    cursor: pointer; 
+    font-size: 2em;
+    background: none;
+    border:none;
+    display: none;
+
+   @media screen and (max-width: $break-large) {
+        display: flex;
+    }
+}
+
+
+.search-background {
+    margin: 0.5em 0.5em;
+    background-color: $peach;
+    /* padding:0.5em; before turned into button*/
+    border: none;
+    border-radius: 100%;
+
+    .search {
+        width: 0.75em;
+        height: 0.75em;
+        color: $text-col;
+    }
+}
+
+.main-nav .active-page {
+    color: $hot-pink;
+}
+
+/* search bar top right  */
+.nav-search-input {
+    position: absolute;
+    top:5.75em;
+    right:0;
+    margin: 0;
+    z-index: 1;
+    display: none;
+}
+
+.main-nav.active {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* FIND A WAY TO MAKE .ACTIVE DROP DOWN */

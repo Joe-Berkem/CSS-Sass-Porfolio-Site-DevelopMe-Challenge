@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<title>Ignis Photography Blog</title>
+		<meta name="description" content="This is my portfolio website blog page.">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="icon" href="#"> <!-- Add Favicon -->
+		<link rel="stylesheet" href="styles/reset.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+		<link rel="stylesheet" href="styles/style.css">
+	</head>
+
+	<body> 
+
+		<div class="wrapper"> <!--This is the div.wrapper opening for body content --> 
+				
+				<header>
+
+				     <nav class="navbar">
+
+						<button class="navbar-toggle" id="js-navbar-toggle">
+				            <img src="images/hamburger.svg" alt="js-menu"></img>
+				        </button> 
+
+
+				        <a href="#" class="logo">Ignis</a>
+				        <ul class="main-nav" id="js-menu">
+				            <li>
+				                <a href="#" class="nav-links active-page">Home</a>
+				            </li>
+				            <li>
+				                <a href="#" class="nav-links">Blog</a>
+				            </li>
+				            <li>
+				                <a href="#" class="nav-links">Contact</a>
+				            </li>
+				            <button class="search-background">
+				                <a href="#" class="nav-links"><img class="search" src="images/search.svg" alt="Search bar function"></a>
+				            </button>
+				        </ul>
+					</nav>
+					      				
+				</header>
+
+			<!--hero image and text --> 
+				<div class="hero-section">
+
+					<input class="nav-search-input" type="search" id="site-search" name="q" aria-label="Search through site content" placeholder="Search">
+
+				    <div class="hero-section-text">
+				    	<h1>Blog</h1>
+				    </div>
+				</div>
+			<!--end hero image and text --> 
+
+			<!--CONTENT --> 
+				<section id="section-b">
+
+					<div class="blog-summary-tape">
+						<img src="images/tape.jpg">
+
+						<button class="uncategorised-button">Uncategorised</button>
+
+						<button class="work-button">Work</button>
+
+						<h3>Lorem ipsum dolor sit amet, consectetur</h3>
+
+						<h6>Posted on June 7, 2017</h6>
+
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et [...]</p>
+
+						<a href="#">Continue reading</a>
+					</div>
+
+					<div class="blog-summary-graf">
+						<img src="images/graf.jpg">
+
+						<button class="work-button">Work</button>
+
+						<h3>Lorem ipsum dolor sit amet, consectetur</h3>
+
+						<h6>Posted on June 7, 2017</h6>
+
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et [...]</p>
+
+						<a href="#">Continue reading</a>
+					</div>
+
+					<div class="blog-summary-woods
+					">
+						<img src="images/woods.jpg">
+
+						<button class="work-button">Work</button>
+
+						<h3>Lorem ipsum dolor sit amet, consectetur</h3>
+
+						<h6>Posted on June 7, 2017</h6>
+
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et [...]</p>
+
+						<a href="#">Continue reading</a>
+					</div>
+
+					<div class="blog-summary-gorilla">
+						<img src="images/gorilla.jpg">
+
+						<button class="work-button">Work</button>
+
+						<h3>Lorem ipsum dolor sit amet, consectetur</h3>
+
+						<h6>Posted on June 7, 2017</h6>
+
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et [...]</p>
+
+						<a href="#">Continue reading</a>
+					</div>
+					
+				</section>
+			<!--CONTENT end --> 
+			
+				<footer>
+
+					<ul>
+						<li><a href="#"><img class="social" src="images/facebook.svg" alt="Facebook"></a></li>
+						<li><a href="#"><img class="social" src="images/twitter.svg" alt="Twitter"></a></li>
+						<li><a href="#"><img class="social" src="images/dribble.svg" alt="Dribble"></a></li>
+						<li><a href="#"><img class="social" src="images/linkedin-in.svg" alt="Linked In"></a></li>
+						<li><a href="#"><img class="social" src="images/youtube.svg" alt="YouTube"></a></li>
+					</ul>
+
+				</footer>
+
+			
+		</div> <!--div.wrapper closing tag -->
+
+	<script type="text/javascript">
+		let mainNav = document.getElementById('js-menu');
+		let navBarToggle = document.getElementById('js-navbar-toggle');
+
+		navBarToggle.addEventListener('click', function () {
+		    
+		    mainNav.classList.toggle('active');
+		});
+	</script>
+	</body>
+</html>

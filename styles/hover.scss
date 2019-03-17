@@ -1,0 +1,96 @@
+
+@media (hover: hover) {
+    .search-background:hover {
+      background-color: $hot-pink;
+    }
+
+    .search-background:hover .search { 
+      filter: invert(100%);
+    }
+
+    footer ul li:hover {
+      background-color: $hot-pink;
+    }
+
+    footer ul li:hover .social { filter: invert(100%);
+    }
+
+    .nav-links:hover {
+      color: $hot-pink;
+    }
+
+    .work-button:hover {
+      background-color: $hot-pink;
+    }
+
+    .uncategorised-button:hover {
+      background-color: $hot-pink;
+    	
+    }
+
+    .search-button:hover {
+      background-color: $turquoise;
+    }
+    .comment-button:hover {
+      background-color: $turquoise;
+    }
+}
+
+
+/*  Homepage Images hover */ 
+
+.image-long {
+   position: relative;
+
+  .image-button {
+    position: absolute;
+    bottom: 100px;
+    left: 20px;
+    display:none;
+  } 
+
+  .image-summary {
+    position: absolute;
+    bottom: 70px;
+    left: 20px;
+    color: white;
+    display: none;
+  } 
+}
+
+.image-short {
+   position: relative;
+
+  .image-button {
+    position: absolute;
+    bottom: 70px;
+    left: 20px;
+    display: none;
+  }
+
+  .image-summary {
+    position: absolute;
+    bottom: 40px;
+    left: 20px;
+    color: white;
+    display: none;
+  } 
+}
+
+@media (hover: hover) {
+    .gallery-images:hover {
+    filter: invert(0.2);
+  }
+  .image-long:hover .image-button {
+    display: block;
+  }
+  .image-long:hover .image-summary {
+    display: block;
+  }
+  .image-short:hover .image-button {
+    display: block;
+  }
+  .image-short:hover .image-summary {
+    display: block;
+  }
+}

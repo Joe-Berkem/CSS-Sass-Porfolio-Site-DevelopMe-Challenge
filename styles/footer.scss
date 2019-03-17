@@ -1,0 +1,22 @@
+footer ul {
+    display: flex;
+    justify-content: center;
+
+	li {
+		display: inline;
+		margin: 0.75em 0.75em;
+		background-color: $peach;
+		padding:0.75em;
+		border-radius: 100%;
+	}
+
+	.social {
+		width: 1em;
+		height: 1em;
+		color: $text-col;
+	}
+}
+
+
+
+
